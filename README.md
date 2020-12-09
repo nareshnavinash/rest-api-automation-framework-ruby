@@ -1,6 +1,6 @@
 # Rest API automation framework in Ruby
 
-This repo is to have test automation framework for REST API using Ruby.
+This repo is to have test automation framework for REST API using Ruby. Rubocop and Travis CI integrated.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Made with Ruby](https://img.shields.io/badge/Made%20with-Ruby-red.svg)](https://www.ruby-lang.org/en/)
