@@ -1,0 +1,5 @@
+--tty 
+--require spec_helper 
+--format documentation 
+--format AllureRspecFormatter 
+spec/*.rb

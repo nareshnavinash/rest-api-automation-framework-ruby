@@ -1,0 +1,5 @@
+base_url: "http://localhost:3001/"
+headers: 
+  Content-Type: 'application/json' 
+  Accept: 'application/json'
+timeout: 10
