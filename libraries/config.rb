@@ -15,17 +15,17 @@ module Libraries
 
     def self.base_url
       Config.read_config
-      ENV['base_url'] || @read_config_file['base_url'] || 'No URL is mentioned to run the tests'
+      ENV['base_url'] || @read_config['base_url'] || 'No URL is mentioned to run the tests'
     end
 
     def self.headers
       Config.read_config
-      @read_config_file['headers'] || {}
+      @read_config['headers'] || {}
     end
 
     def self.timeout
       Config.read_config
-      @read_config_file['timeout'] || 10
+      @read_config['timeout'] || 10
     end
 
     def self.load_test_data(file_name)

@@ -10,3 +10,5 @@ gem 'pry', '~> 0.13.1'
 gem 'rspec', '~> 3.10'
 gem 'rspec-expectations', '~> 3.10'
 gem 'rubocop', '~> 1.6', require: false
+gem 'parallel_tests', '~> 3.4'
+gem 'rspec_junit_formatter', '~> 0.4.1'

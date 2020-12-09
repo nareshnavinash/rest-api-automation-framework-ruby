@@ -1,9 +1,6 @@
 --tty 
 --require spec_helper 
 --format RspecJunitFormatter --out reports/junit/report_<%= ENV['TEST_ENV_NUMBER'] %>.xml
---format html --out reports/html/report_<%= ENV['TEST_ENV_NUMBER'] %>.html
---format json --out reports/json/report_<%= ENV['TEST_ENV_NUMBER'] %>.json
---format Fuubar --out reports/fuubar/report_<%= ENV['TEST_ENV_NUMBER'] %>.txt
 --format documentation 
 --format AllureRspecFormatter 
 spec/*.rb

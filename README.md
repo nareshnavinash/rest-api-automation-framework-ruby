@@ -22,6 +22,14 @@ This repo is to have test automation framework for REST API using Ruby. Rubocop 
 * Allure report can be get by giving `allure serve reports/allure`
 * Logs will be available under `reports/logs`
 
+### Tagged run
+* To run the tests based on the tags `rspec --tag sanity` or `rspec --tag regression`
+* Its better to have two modes of run within the same tests suite in order to have quicker turn over once the build is deployed
+
+### Parallel run
+* To speed up the execution, run the tests in parallel way by trying `parallel_rspec spec/`
+* This will split the number of spec files which we have according to the number of cpu cores available in the machine
+
 ## Folder Structure Definitions
 
 ### Libraries
@@ -44,6 +52,7 @@ This repo is to have test automation framework for REST API using Ruby. Rubocop 
 ### Reports
 * Reports folder has allure specific result files. These are some xml files which will be used while running `allure serve reports/allure`.
 * Results folder also has other form of reports like logs, response json from the api, and rspec_status
+* To support CI Integration JUNIT reporting is also integrated with the tests
 
 ### Gemfile
 * All the dependencies should be mentioned here, so that all the gems can be installed in one shot.

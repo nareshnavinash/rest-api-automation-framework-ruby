@@ -18,7 +18,6 @@ end
 AllureRspec.configure do |config|
   config.results_directory = 'reports/allure'
   config.clean_results_directory = true
-  config.logging_level = Logger::INFO
 end
 
 ClientApi.configure do |config|
