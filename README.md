@@ -7,6 +7,9 @@ This repo is to have test automation framework for REST API using Ruby. Rubocop 
 [![StackOverflow](http://img.shields.io/badge/Stack%20Overflow-Ask-blue.svg)]( https://stackoverflow.com/users/10505289/naresh-sekar)
 [![email me](https://img.shields.io/badge/Contact-Email-green.svg)](mailto:nareshnavinash@gmail.com)
 
+## Travis build status 
+[![Build Status](https://travis-ci.com/nareshnavinash/rest-api-automation-framework-ruby.svg?branch=main)](https://travis-ci.com/nareshnavinash/rest-api-automation-framework-ruby)
+
 ## Prerequsite
 * Install RVM 2.7.0 in the machine
 * Clone the project to a directory.
